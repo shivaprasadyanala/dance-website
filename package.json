@@ -1,0 +1,20 @@
+{
+    "name": "dance-wesite",
+    "version": "1.0.0",
+    "description": "learing process of express and nodejs",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.1",
+        "express": "^4.17.2",
+        "mongoose": "^6.2.4",
+        "nodemon": "^2.0.15",
+        "pug": "^3.0.2",
+        "railway": "^2.0.17"
+    }
+}

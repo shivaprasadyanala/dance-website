@@ -1,0 +1,21 @@
+doctype html 
+html
+  head
+    title My dance Academy
+    block style
+    block scripts
+  body
+   nav#navbar
+      ul
+         div#logo 
+            img(src="/static/img/logo.png", alt="")
+            | HDA
+         li #[a(href="/") Home]
+         li #[a(href="/about") About]  
+         li #[a(href="/services") Services]
+         li #[a(href="/classinfo") Class Info] 
+         li #[a(href="/contact") contact]
+   block content
+   block footer 
+   footer#footer 
+      | copyright © 2022 cilicdanceAcedemy.com | All right reserved 
